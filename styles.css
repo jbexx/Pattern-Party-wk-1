@@ -97,6 +97,7 @@ body {
     border-bottom: 1px solid #d1d2d3;
     border-left: 1px solid #fff;
     color: #666;
+    cursor: pointer;
     display: flex;
     font-size: 1.3rem;
     height: 50px;
@@ -164,6 +165,7 @@ body {
     height: 50px;
     justify-content: center;
     margin: 40px;
+    text-decoration: none;
     width: 350px;
 }
 
