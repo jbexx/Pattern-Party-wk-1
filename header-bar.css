@@ -56,7 +56,8 @@
   width: 100%;
 }
 
-.search:focus {
+.search:focus,
+.search-mobile:focus {
   outline: none;
 }
 
@@ -80,10 +81,18 @@
 .search-input-mobile {
   align-items: center;
   align-self: center;
-  background-color: #f2f2f2;
+  background-color: #fff;
   display: flex;  
   height: 50px;
   margin: 5px 0;
+  width: 97%;
+}
+
+.search-mobile {
+  background-color: #fcfcfc;  
+  border: none;
+  font-size: 1.3em;
+  height: 48px;
   width: 100%;
 }
 
