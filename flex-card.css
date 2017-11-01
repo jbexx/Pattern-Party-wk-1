@@ -102,4 +102,8 @@
     margin: 20px;
     width: 306px;
   }
+
+  .flex {
+    width: 90%;
+  }
 }
