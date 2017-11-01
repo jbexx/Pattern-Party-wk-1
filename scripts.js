@@ -7,7 +7,7 @@ $('.nav-item').on('click', (e) => {
     $("#" + $(e.target).attr('data-id')).removeClass('is-hidden');
 });
 
-$('.title').on('click', () => {
+$('.nav-title').on('click', () => {
     if ( $('.mobile-navs').css('display') === 'none' ) {
         $('.mobile-navs').css('display', 'flex')
     } else {
