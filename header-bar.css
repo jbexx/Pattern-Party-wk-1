@@ -60,7 +60,7 @@
   outline: none;
 }
 
-.title {
+.nav-title {
   color: #666;
   cursor: pointer;
   display: none;
@@ -99,7 +99,7 @@
     display: none;
   }
 
-  .title {
+  .nav-title {
     display: unset;
   }
 
